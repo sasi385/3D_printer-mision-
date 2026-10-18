@@ -77,7 +77,7 @@ export default function App() {
     <div className="wrap">
       <header>
         <div>
-          <h1>Wanhao Duplicator 4</h1>
+          <h1>TRINOVA</h1>
           <p className="sub">อัปเดตล่าสุด {data ? new Date(data.ts).toLocaleTimeString("th-TH") : "—"}</p>
         </div>
         <span className={`badge ${state}`}>{LABEL[state]}</span>
